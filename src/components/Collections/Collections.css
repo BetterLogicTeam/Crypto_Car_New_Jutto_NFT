@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+
+.collectionsContainer{
+    width: 100%;
+    height: auto !important;
+    background-color: #210234;
+}
+.collectionsInner{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+
+    
+}
+.single-live-auction.home-2 {
+    padding: 0;
+    border-radius: 20px;
+}
+
+.single-live-auction {
+    background-color: #060826;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.auction-thumb.home-2 {
+    position: relative;
+    z-index: 1;
+    border-radius: 20px 20px 0 0;
+}
+.single-live-auction .auction-thumb {
+    overflow: hidden;
+}
+.collection-text {
+    padding: 20px;
+}
+.collection-text a {
+    color: #fff;
+    font-size: 22px;
+    display: block;
+}
+.collection-text p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.auction-thumb.home-2 img {
+    border-radius: 20px 20px 0 0;
+}
+.single-live-auction .auction-thumb img {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-text p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+@media screen and (max-width:320px) {
+    
+    .token_inner h1{
+        font-size: 25px;
+       
+    }
+ }
+ .color{
+     color: white !important;
+ }
+.collectionsText{
+    height: 50vh;
+    width: 45%;
+}
+.collectionsText p{
+    color: white;
+    font-family: quicksand, sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+}
+.collectionsImage{
+    height: 50vh;
+    width: 40%;
+}
+.collectionsImage img{
+    /* transform: (90deg) */
+    transform: scaleX(-1);
+}
+@media (min-width:280px) and (max-width:480px){
+    .collectionsContainer{
+      
+
+        height: 100vh;
+
+    }
+    .collectionsInner{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+  padding-top: 60px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .collectionsText{
+        height: 50vh;
+        width: 80%;
+    }
+    .collectionsText p{
+        color: #fff;
+        font-family: quicksand, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .collectionsImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .collectionsImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .collectionsContainer{
+
+        height: 100vh;
+
+    }
+    .collectionsInner{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+  padding-top: 80px;
+  padding: 0 25px 0 25px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .collectionsText{
+        height: 50vh;
+        width: 80%;
+    }
+    .collectionsText p{
+        color: #fff;
+        font-family: quicksand, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        
+    }
+    .collectionsImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .collectionsImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+.coll {
+    color: #C03671;
+    font-size: 45px;
+    line-height: 43px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .collectionsContainer{
+
+        height: 100vh;
+
+    }
+    .collectionsInner{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+  padding-top: 80px;
+  padding: 0 25px 0 25px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .collectionsText{
+        height: 50vh;
+        width: 80%;
+    }
+    .collectionsText p{
+        color: #fff;
+        font-family: quicksand, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        
+    }
+    .overviewImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+
+
+
+

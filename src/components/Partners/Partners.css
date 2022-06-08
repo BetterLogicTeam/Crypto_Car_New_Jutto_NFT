@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+
+.partnersContainer{
+    width: 100%;
+    height: 100vh;
+   
+    background-color: #000;
+}
+.partnersHeading{
+    padding-top:100px;
+    text-align: center;
+    color: #ffa05f;
+    font-family: 'Aldrich', sans-seri !important; 
+}
+.partnersForm{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.partnersFormRow1{
+    display: flex;
+}
+.partnersFormRow1 input{
+    width: 480px;
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    border: #ffa05f 1px solid;
+    outline: #ffa05f;
+    border-radius:8px;
+    color: #fff;
+
+}
+.partnersFormRow2 textarea{
+    width: 1000px;
+    height: 40vh;
+    padding: 2px;
+    background: transparent;
+    border: #ffa05f 1px solid;
+    outline: #ffa05f;
+    border-radius:8px;
+    color: #fff;
+
+
+}
+::placeholder {
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important; 
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  .partnerSendBtn{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+  }
+  .partnerSendBtn div{
+      border: solid 1px #ffa05f;
+      height: 0;
+      width: 450px;
+  }
+  .partnerSendBtn button{
+    font-family: 'Aldrich', sans-seri !important; 
+background-color: #ffa05f;
+color: #000;
+border-radius: 25px;
+
+  }
+
+
+
+
+
+
+  /* ----------------------280----------------------480------------------------ */
+
+
+  @media (min-width:280px) and (max-width:480px) {
+
+    
+.partnersContainer{
+    width: 100%;
+    height: 130vh;
+   
+    background-color: #000;
+}
+.partnersHeading{
+    padding-top:100px;
+    font-size: 20px;
+   
+}
+.partnersForm{
+    height: 50vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    padding: 20px;
+    
+}
+.partnersFormRow1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.partnersFormRow1 input{
+    width: 170%;
+color: #fff;
+    /* margin: 15px; */
+    /* padding: 10px; */
+   
+
+}
+.partnersFormRow2{
+    width: 107%;
+
+}
+.partnersFormRow2 textarea{
+    width: 100%;
+    height: 40vh;
+    padding: 2px;
+    font-size: 16px !important;
+  
+
+
+}
+::placeholder {
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important; 
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  .partnerSendBtn{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      width: 100%;
+  }
+  .partnerSendBtn div{
+      border: solid 1px #ffa05f;
+      height: 0;
+      width: 100% !important;
+  }
+
+
+
+      
+  }
+
+
+
+  /* ----------------------480----------------------768------------------------ */
+  @media (min-width:481px) and (max-width:768px) {
+
+    
+.partnersContainer{
+    width: 100%;
+    height: 130vh;
+   
+    background-color: #000;
+}
+
+.partnersForm{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.partnersFormRow1{
+    display: flex;
+    flex-direction: row;
+    width: 103%;
+}
+.partnersFormRow1 input{
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+   
+
+}
+.partnersFormRow2{
+    width: 100%;
+
+}
+.partnersFormRow2 textarea{
+    width: 100%;
+    height: 40vh;
+    padding: 2px;
+  
+
+
+}
+::placeholder {
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important; 
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Aldrich', sans-seri !important; 
+   color: #fff;
+  }
+  .partnerSendBtn{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+  }
+  .partnerSendBtn{
+    width: 100% ;
+
+  }
+  .partnerSendBtn div{
+      border: solid 1px #ffa05f;
+      height: 0;
+      width: 100% ;
+  }
+ 
+
+
+  }
+
+/* -////--------------------/--------------------------7688-------------------------/1042---/ */
+ @media (min-width:769px) and (max-width:1024px) {
+
+    
+    .partnersContainer{
+        width: 100%;
+        height: 130vh;
+       
+        background-color: #000;
+    }
+    
+    .partnersForm{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    
+    .partnersFormRow1{
+        display: flex;
+        flex-direction: row;
+        width: 103%;
+    }
+    .partnersFormRow1 input{
+        width: 100%;
+        margin: 15px;
+        padding: 10px;
+       
+    
+    }
+    .partnersFormRow2{
+        width: 100%;
+    
+    }
+    .partnersFormRow2 textarea{
+        width: 100%;
+        height: 40vh;
+        padding: 2px;
+      
+    
+    
+    }
+    ::placeholder {
+        color: #fff;
+        font-family: 'Aldrich', sans-seri !important; 
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: 'Aldrich', sans-seri !important; 
+       color: #fff;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        font-family: 'Aldrich', sans-seri !important; 
+       color: #fff;
+      }
+      .partnerSendBtn{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-top: 50px;
+      }
+      .partnerSendBtn{
+        width: 100% ;
+    
+      }
+      .partnerSendBtn div{
+          border: solid 1px #ffa05f;
+          height: 0;
+          width: 100% ;
+      }
+     
+    
+    
+      }
+    

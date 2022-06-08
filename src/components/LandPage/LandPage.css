@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.landPagevideo{
+    background-color: #210234;
+    margin-top: 50px;
+}
+.landPageText{
+    margin-top: -510px;
+    margin-left: 60px;
+    width: 550px;
+    position: absolute;
+    color: white;
+    font-family: quicksand, sans-serif;
+}
+
+.landPageText p{
+    font-size: 50px;
+    font-weight: 600 !important;
+    font-family: sans-serif;
+}
+
+@media (min-width:300px) and (max-width:480px){
+    .landPageText{
+        width: auto;
+        margin-left: auto;
+        margin-top: -550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .vdo{
+        height: 130vh !important;
+    }
+    .landPageText p{
+        font-weight: bold;
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+    .text-white{
+        text-align: center !important;
+    }
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .landPageText{
+        width: auto;
+        margin-left: auto;
+        margin-top: -220px;
+        font-family: quicksand, sans-serif !important;
+        /* z-index: 100; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center !important;
+    }
+    .landPageText p{
+        font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif !important;
+        text-align: center !important;
+        width: 75%;
+        margin-top: -5rem;
+        margin-left: 5.5rem;
+    }
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .landPageText{
+        width: auto;
+        margin-left: auto;
+        margin-top: -220px;
+        font-family: quicksand, sans-serif !important;
+        /* z-index: 100; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center !important;
+    }
+    .landPageText p{
+        font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif !important;
+        text-align: center !important;
+        width: 75%;
+        margin-top: -5rem;
+        margin-left: 6.4rem;
+    }
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    /* .landPagevideo{
+        background-color: #210234;
+        margin-top: 50px;
+    } */
+    .landPageText{
+        margin-top: -517px;
+        margin-left: 60px;
+        width: 550px;
+        position: absolute;
+        color: white;
+        font-family: quicksand, sans-serif;
+    }
+    
+    .landPageText p{
+        font-size: 50px;
+        font-weight: 600 !important;
+        font-family: sans-serif;
+    }
+    
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1440px){
+    /* .landPagevideo{
+        background-color: #210234;
+        margin-top: 50px;
+    } */
+    .landPageText{
+        margin-top: -340px;
+        margin-left: 60px;
+        width: 550px;
+        position: absolute;
+        color: white;
+        font-family: quicksand, sans-serif;
+    }
+    
+    .landPageText p{
+        font-size: 35px;
+        font-weight: 600 !important;
+        font-family: sans-serif;
+    }
+    
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:1441px) and (max-width:2560px){
+
+    .landPageText{
+        margin-top: -460px;
+        /* margin-left: 60px;
+        width: 550px;
+        position: absolute;
+        color: white;
+        font-family: quicksand, sans-serif; */
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+
+.footerContainer{
+    width: 100%;
+    height: auto !important;
+    background-color: #210234;
+
+}
+.links{
+    display: flex;
+}
+.footertext span{
+    cursor: pointer;
+    font-family: quicksand, sans-serif; 
+}
+.footerInner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: white;
+}
+.footerInner a{
+    text-decoration: none;
+    color: rgb(192,54,113);
+    font-weight: 600;
+}
+
+
+@media (min-width:280px) and (max-width:480px) {
+    .footerInner a{
+        text-decoration: none;
+        color: rgb(192,54,113);
+    }
+
+    .footerInner span{
+        font-size: 12px;
+
+    }
+
+    .footertext span{
+        font-size: 20px;
+    }
+
+    .footerInner{
+       
+        padding-top: 0px;
+        color: black;
+        
+        /* text-align: center; */
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .footertext span {
+        font-size: 14px;
+        /* padding-left: -9px !important; */
+    }
+
+    .footerInner a{
+        font-weight: 270;
+    }
+
+
+    
+}

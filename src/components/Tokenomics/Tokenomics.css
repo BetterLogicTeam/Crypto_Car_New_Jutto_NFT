@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+
+  .token_img img{
+      margin-left: 9rem;
+  }
+
+  .heading_main{
+    color: rgb(192,54,113);
+    font-family: sans-serif; 
+    text-align: center !important;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+  
+  }
+
+ .tokenomicsContainer2{
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     background-color: #210234;
+ }
+ @media screen and (max-width:320px) {
+     
+    .token_img img{
+        margin-left: 0rem;
+        width: 300px;
+    }
+
+    .token_inner h1{
+        font-size: 25px;
+        margin-left: -8rem;
+    }
+ }
+.innerdivtextandimg2{
+    background-image: url(../Tokenomics/cars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+ @media (min-width:320px)  and (max-width:375px) {
+     
+    .token_img img{
+        margin-left: 0rem;
+        width: 350px;
+    }
+
+    .token_inner h1{
+        font-size: 25px;
+        margin-left: -8rem;
+    }
+ }
+
+ @media (min-width:375px)  and (max-width:480px) {
+     
+    .token_img img{
+        margin-left: 0rem;
+        width: 400px;
+    }
+
+    .token_inner h1{
+        font-size: 25px;
+        margin-left: -8rem;
+        padding-top: 0rem;
+    }
+ }
+
+ @media (min-width:480px)  and (max-width:800px) {
+     
+    .token_img img{
+        margin-left: 1.4rem;
+        width: 700px;
+    }
+
+    .token_inner h1{
+        font-size: 50px;
+        margin-left: -8rem;
+    }
+ }
+
+ @media (min-width:800px)  and (max-width:1024px) {
+     
+    .token_img img{
+        margin-left: 3rem;
+        width: 900px;
+    }
+
+    .token_inner h1{
+        font-size: 50px;
+        margin-left: -6rem;
+    }
+ }
+
+ @media (min-width:1024px)  and (max-width:1200px) {
+     
+    .token_img img{
+        /* margin-left: 10.5rem; */
+        width: 1000px;
+    }
+
+    .token_inner h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        padding-left: 11rem;
+        padding-top: 3rem;
+    }
+
+    .innerdivtextandimg2{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+ }
+
+ @media (min-width:1441px)  and (max-width:2560px) {
+
+
+    .token_img img{
+        /* margin-left: 5rem; */
+        width: 3500px;
+    }
+
+    .token_inner h1{
+        text-align: center !important;
+        font-size: 70px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        /* padding-left: 69rem; */
+        padding-top: 3rem;
+    }
+
+    .innerdivtextandimg2{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+ }

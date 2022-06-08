@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+.navContainer{
+    background-color: #210234;
+    font-family: quicksand, sans-serif;
+}
+
+.joinBtn{
+    background-color: #ffa05f;
+    width: 10rem !important;
+    font-family: sans-serif !important;
+}
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle {
+    color: #ffffff !important;
+    background-color: #c03671 !important;
+    border-color: #f8f9fa;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: #c03671 !important;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff !important;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: #c03671 !important;
+    background-clip: padding-box;
+    border: 1pxsolidrgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.joinBtn2{
+    background-color: #c03671;
+    font-family: sans-serif !important;
+    width: 8rem !important;
+}
+.fa-twitter{
+    color: white !important;
+    font-size: 26px;
+
+}
+.fa-instagram{
+    color: white !important;
+    font-size: 26px;
+}
+
+.fa-telegram{
+    color: white !important;
+    font-size: 26px;
+}
+
+.fa-youtube{
+    color: white !important;
+    font-size: 26px;
+}
+
+.fa-facebook{
+    color: white !important;
+    font-size: 26px;
+}
+
+.navLink{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.navText{
+    font-size: 14px;
+    font-family: quicksand, sans-serif !important;
+    text-decoration: none;
+    outline: none;
+
+}
+.navText:hover{
+    color: #ffa05f !important;
+    text-decoration: none;
+
+}
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:300px) and (max-width:480px){
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    /* margin-left: 10px;
+    margin-bottom: 20px; */
+    width: 100% !important;
+}
+.maindivnavnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+   
+
+}
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        /* margin-top: 20rem; */
+       
+        /* margin-bottom: 20px; */
+    }
+
+    .Navbuttonres{
+        margin-left: 20rem;
+    }
+
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        /* margin-left: 10px;
+        margin-bottom: 20px; */
+        width: 100% !important;
+    }
+    .maindivnavnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+       
+    
+    }
+
+  
+    }
+
+
+    @media (min-width:769px) and (max-width:1024px){
+        .navLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            /* margin-top: 20rem; */
+           
+            /* margin-bottom: 20px; */
+        }
+    
+        .Navbuttonres{
+            margin-left: 20rem;
+        }
+    
+        .navLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            /* margin-left: 10px;
+            margin-bottom: 20px; */
+            width: 100% !important;
+        }
+        .maindivnavnav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100% !important;
+           
+        
+        }
+    
+      
+        }

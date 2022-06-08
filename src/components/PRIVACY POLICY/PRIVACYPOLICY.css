@@ -1,0 +1,139 @@
+.maindivuper{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+.mainheading{
+    
+    color: #ffa05f ;
+    
+   
+    text-align: center;
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+.Introdiv{
+    color: #ffa05f ;
+    
+   
+    text-align: left;
+    margin-top: 3rem;
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 38px;
+    /* text-decoration: underline; */
+    font-weight: 600;
+
+}
+
+.IntrodutionText p{
+    color: #ffffff ;
+    
+   
+    text-align: left;
+    /* margin-top: 3rem; */
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 23px;
+    
+
+}
+
+.Definitions h1{
+    color: #ffa05f ;
+    
+   
+    text-align: left;
+    margin-top: 3rem;
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 38px;
+  
+    font-weight: 600;
+
+}
+.Definitions p{
+    color: #ffffff ;
+    
+   
+    text-align: left;
+    /* margin-top: 3rem; */
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 23px;
+
+}
+
+
+
+@media (min-width:280px) and (max-width:480px) {
+
+    .mainheading{
+    
+        color: #ffa05f ;
+        
+       
+        text-align: center;
+       
+        font-family: 'Aldrich', sans-seri !important;
+        font-size: 40px;
+        /* text-decoration: underline; */
+        font-weight: bold;
+    }
+.Introdiv{
+    color: #ffa05f ;
+    
+   
+    text-align: left;
+    margin-top: 3rem;
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 32px !important;
+    /* text-decoration: underline; */
+    font-weight: 600;
+
+}
+
+.IntrodutionText p{
+    color: #ffffff ;
+    
+   
+    text-align: left;
+    /* margin-top: 3rem; */
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 16px;
+    
+
+}
+
+.Definitions h1{
+    color: #ffa05f ;
+    
+   
+    text-align: left;
+    margin-top: 3rem;
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 32px;
+  
+    font-weight: 600;
+
+}
+.Definitions p{
+    color: #ffffff ;
+    
+   
+    text-align: left;
+    /* margin-top: 3rem; */
+   
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 16px;
+
+}
+    
+}

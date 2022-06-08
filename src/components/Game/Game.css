@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
+
+.gameContainer{
+
+    height: 150vh;
+    background-color: #210234;
+}
+
+.GameText{
+    margin-top: -580px;
+    margin-left: 60px;
+    color: rgb(192,54,113);
+    /* width: 550px; */
+    position: absolute;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.gameBtn{
+    margin-top: -120px;
+    margin-left: 60px;
+    color: #fff;
+    background-color:#ffa05f ;
+    width: 150px;
+    position: absolute;
+    font-size: 15px;
+    /* padding: 10px; */
+    font-family: quicksand, sans-serif; 
+}
+.gameBottomText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.gameBottomText p{
+    width: 82%;
+    color: rgb(192,54,113);
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.p2{
+    width: 82%;
+    color: rgb(192,54,113);
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+
+
+@media (min-width:280px) and (max-width:480px){
+    .GameText{
+        margin-top: -350px;
+        margin-left: 0px;
+        
+        width: 80%;
+         text-align: center;
+        
+        font-size: 25px;
+       
+    }
+    .bothdivbtnandtext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gameBtn{
+        margin-top: -200px;
+        margin-left: 0px;
+      
+        width: 150px;
+    
+        font-size: 15px;
+   
+    }
+    .gameBottomText p{
+        width: 82%;
+        color: #ffa05f;
+        font-size: 20px;
+        
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+    
+    }
+   
+
+
+}
+
+
+@media (min-width:480px) and (max-width:768px){
+    .GameText{
+        margin-top: -350px;
+        margin-left: 0px;
+        
+        width: 80%;
+         text-align: center;
+        
+        font-size: 40px;
+       
+    }
+    .bothdivbtnandtext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gameBtn{
+        margin-top: -200px;
+        margin-left: 0px;
+      
+        width: 150px;
+    
+        font-size: 15px;
+   
+    }
+   
+
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .GameText{
+        margin-top: -350;
+        margin-left: 0px;
+        
+        width: 80%;
+         text-align: center;
+        
+        font-size: 40px;
+       
+    }
+    .bothdivbtnandtext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gameBtn{
+        margin-top: -200px;
+        margin-left: 0px;
+      
+        width: 150px;
+    
+        font-size: 15px;
+   
+    }
+   
+
+
+}
+
+
+@media (min-width:1200px) and (max-width:1440px){
+    .GameText{
+        margin-top: -350;
+        margin-left: 0px;
+        
+        width: 80%;
+         text-align: center;
+        
+        font-size: 40px;
+       
+    }
+
+    .gameContainer{
+        height: 100vh;
+    }
+    .bothdivbtnandtext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gameBtn{
+        margin-top: -200px;
+        margin-left: 0px;
+      
+        width: 150px;
+    
+        font-size: 15px;
+   
+    }
+   
+
+
+}
+
+@media (min-width:1441px) and (max-width:2560px){
+    .GameText{
+        margin-top: -350;
+        margin-left: 0px;
+        
+        width: 80%;
+         text-align: center;
+        
+        font-size: 40px;
+       
+    }
+
+    .gameContainer{
+        height: 150vh;
+    }
+    .bothdivbtnandtext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gameBtn{
+        margin-top: -200px;
+        margin-left: 0px;
+      
+        width: 150px;
+    
+        font-size: 15px;
+   
+    }
+   
+
+
+}
