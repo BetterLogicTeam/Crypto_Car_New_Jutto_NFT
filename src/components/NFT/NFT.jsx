@@ -17,7 +17,9 @@ function NFT() {
                     them access to private lounges, private car clubs, and private events worldwide.</p> */}
                 </div>
                 <div className='NFTimage'>
-                    <img src='Car.gif' />
+                    {/* <img src='Car.gif' /> */}
+            <video className='nft_mp4' src='NFT.mp4' loop muted autoPlay/>
+
                 </div>
 
             </div>

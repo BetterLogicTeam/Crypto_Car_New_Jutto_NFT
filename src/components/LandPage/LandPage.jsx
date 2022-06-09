@@ -9,7 +9,7 @@ function LandPage() {
     //         </script>
     return (
         <div className='landPagevideo mt-0'>
-            <video className='vdo' src='finalcrypto.mp4' loop muted autoPlay/>
+            <video className='vdo' src='Langingpage.mp4' loop muted autoPlay/>
             
             <div className='landPageText'>
                 <p className=''>

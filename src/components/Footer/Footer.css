@@ -4,7 +4,8 @@
     width: 100%;
     height: auto !important;
     background-color: #210234;
-
+    padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 .links{
     display: flex;
@@ -19,6 +20,11 @@
     align-items: center;
     padding-top: 50px;
     color: white;
+
+}
+.footertext{
+    margin-top: 4rem;
+
 }
 .footerInner a{
     text-decoration: none;

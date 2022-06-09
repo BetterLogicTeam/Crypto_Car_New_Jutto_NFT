@@ -4,7 +4,7 @@ function Footer({setPolicy, setTerms}) {
     return (
         <div className='footerContainer'>
             <div className="footerInner">
-                <div > 
+                <div className='footerInners'> 
                     <span>Copyright ©️ <a href='#'>coinstake (CST)</a> 2022 All Rights Reserved</span>
                 </div>
                 <br/>

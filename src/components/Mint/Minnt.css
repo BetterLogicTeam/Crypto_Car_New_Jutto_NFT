@@ -5,7 +5,10 @@
     height: auto !important;
     background-color: #210234;
 }
+.model_bg{
+    background-color: #210234;
 
+}
 .Firstdivheading{
     color: rgb(192,54,113);
     font-family: sans-serif;
@@ -37,6 +40,7 @@
     font-family: quicksand, sans-serif;
     font-size: 16px;
     font-weight: bold;
+    padding: 10px 35px 10px 35px;
    
 
 }
@@ -101,4 +105,10 @@
 }
 
     
+}
+
+
+.modelbtnhere{
+    background-color: #ffa05f;
+color: #ffffff;
 }

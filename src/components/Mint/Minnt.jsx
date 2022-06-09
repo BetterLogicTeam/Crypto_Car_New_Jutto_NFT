@@ -1,29 +1,65 @@
 import React, { useState } from 'react'
-import {loadAccountAddress} from "../Api/Api"
+import {loadAccountAddress, loadWeb3} from "../Api/Api"
 import './Minnt.css'
+import PublicMint from './PublicMint'
 
-function Mint({getAccount,txt}) {
+function Mint() {
+    let [txt, setTxt]=useState("Connect to BSC")
+    const [minthere, setminthere] = useState(false)
+
+
+    const getAccount=async()=>{
+        try{
+            let acc = await loadWeb3();
+        // console.log("ACC=",acc)
+        if (acc == "No Wallet") {
+            setTxt("No Wallet")
+            setminthere(false)
+        }
+        else if (acc == "Wrong Network") {
+            setTxt("Wrong Network")
+            setminthere(false)
+        } else {
+            let myAcc = acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4);
+            setTxt(myAcc);
+            setminthere(true)
+  
+        }
+
+        }catch(e){
+            console.log("error while get account",e);
+        }
+    }
+
+ 
   
     return (
         <div>
-            <div className="mainMintdiv">
+            {
+                minthere ?   <PublicMint/>     :   <>
+                
+                
+                <div className="mainMintdiv">
                 <div className="innerMintdiv"><br /><br />
                     <h3 className="Firstdivheading">Pre - Sale is live</h3><br />
                     <h1 className='ConnectDiv'>Please Connect</h1>
-                    <p className='ConnectdivPP'>Connect to the Ethereum Mainnet Network (Accepted Wallet:Metamask).</p>
+                    <p className='ConnectdivPP'>Connect to the Binance Testnet Network (Accepted Wallet:Metamask).</p>
                     <p className='ConnectdivPP'>{txt}</p>
                     <div className="btnconnecthere">
                     
                         <button 
-                        onClick={getAccount}
+                        onClick={()=>getAccount()}
                         className='btn btn-sm Connectbtn'>CONNECT</button>
                     </div>
                     <div className="afterconnecttext">click mint to mint your NFT.</div>
-                   <p className="Salepricetext"> Pre - Sale Price : 0.15 ETH (+ Gas fee)</p>
+                   <p className="Salepricetext"> Pre - Sale Price : 0.15 BNB (+ Gas fee)</p>
 
 
                 </div>
-            </div>
+            </div></>
+                
+            }
+           
 
 
         </div>

@@ -18,7 +18,7 @@ function NavbarCrypto({ setAll }) {
         // fixed="top"
       >
         <Navbar.Brand href="#home" className="">
-          <img src="logon.png" height="50px" width="180px" />
+          <img src="logo_car.png" height="50px" width="180px" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

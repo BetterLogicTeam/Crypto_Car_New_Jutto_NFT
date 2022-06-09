@@ -15,7 +15,10 @@ import PrivacyPolicey from "./PRIVACY POLICY/PrivacyPolicey";
 import Faq from "../components/Faq/Faq";
 import Collections from "./Collections/Collections";
 import { Routes, Route, Link } from "react-router-dom";
-import SuperMint from "./Mint/SuperMint";
+
+
+import PreSaleMint from "./Mint/PreSaleMint";
+import Mint from "./Mint/Minnt";
 function Home() {
   let [isRouting, setIsRouting] = useState("all");
   const setAll = () => {
@@ -59,7 +62,7 @@ const AllComponents = ({ setAll, setPolicy, setTerms }) => {
     <div>
       <Navbar setAll={setAll} />
       <LandPage />
-      <SuperMint />
+     <Mint/>
       <Overview />
       <NFT />
       <Slides />

@@ -1,22 +1,28 @@
 import React,{useState} from 'react'
 import Mint from './Minnt'
-import SecondMinnt from './SecondMinnt';
-import {loadAccountAddress} from '../Api/Api'
+
+import {loadWeb3} from '../Api/Api'
+
+import PublicMint from './PublicMint';
+
 function PreSaleMint() {
-    let [isDisplay, setIsDisplay]=useState(true)
+    let [isDisplay, setIsDisplay]=useState(false)
     let [txt, setTxt]=useState("")
 
     const getAccount=async()=>{
         try{
-            let acc= await loadAccountAddress();
+            let acc= await loadWeb3();
             if(acc== "No Wallet"){
                 setTxt(acc);
-                setIsDisplay(true)
-            }else if(acc== "Connect to Rinkeby"){
+                setIsDisplay(false)
+            }else if(acc== "Connect to BSC"){
                 setTxt(acc)
                 setIsDisplay(true)
+                // console.log("accc",acc);
             }else{
-                setIsDisplay(false)
+                setIsDisplay(true)
+                setTxt(acc)
+
             }
             console.log(acc);
 
@@ -26,12 +32,14 @@ function PreSaleMint() {
     }
     return (
         <div>
+            {/* <Mint  getAccount={getAccount} txt={txt} /> */}
             {
-isDisplay ? 
-<Mint  getAccount={getAccount} txt={txt} />
-:
-<SecondMinnt/>
+                isDisplay ? <Mint  getAccount={getAccount} txt={txt} /> : <PublicMint/>
+                
             }
+            
+
+
         </div>
     )
 }
