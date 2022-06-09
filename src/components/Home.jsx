@@ -66,7 +66,7 @@ const AllComponents = ({ setAll, setPolicy, setTerms }) => {
       <Overview />
       <NFT />
       <Slides />
-      <Game />
+      <Game />    
       <Tokenomics />
       <Collections/>
       <Roadmap />
