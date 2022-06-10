@@ -124,13 +124,18 @@ function PublicMint() {
                                                 // console.log("Minting Value= ", value);
                                                 // console.log("Minting totalMintingPriceWire= ", totalMintingPriceWire);
 
+                                                let BusdPrice = await nftContractOf.methods.WhitelistMinitngPricein_MMX().call();
+
+                           
+                                                let b = BusdPrice * value;
+                                                
                                                 totalMintingPriceWire = web3.utils.toWei(totalMintingPriceWire.toString())
-                                                await wireContractOf.methods.approve(wireNftContractAddress, totalMintingPriceWire).send({
+                                                await wireContractOf.methods.approve(wireNftContractAddress, b).send({
                                                     from: acc
                                                 })
                                                 toast.success("Transaction Confirmed")
                                                 setButtonTwo("Please Wait for Second Confirmation")
-                                                let hash = await nftContractOf.methods.mint_with_MMX(value, totalMintingPriceWire.toString()).send({
+                                                let hash = await nftContractOf.methods.mint_with_MMX(value, b.toString()).send({
                                                     from: acc,
                                                 })
                                                 toast.success("Transaction Succefful")
@@ -141,7 +146,7 @@ function PublicMint() {
                                                     "uid": inputdatahere,
                                                     "address": acc,
                                                     "nft": value,
-                                                    "token": totalMintingPriceWire,
+                                                    "token": b,
                                                     "txn": hash
                                                 })
                                                 toast.success("Transaction Confirmed")
@@ -177,17 +182,13 @@ function PublicMint() {
                             }
                             else {
 
-                                let BusdPrice = await nftContractOf.methods.WhitelistMinitngPricein_MMX().call();
                                 totalMintingPriceWire = web3.utils.toWei(totalMintingPriceWire.toString())
                                 await wireContractOf.methods.approve(wireNftContractAddress, totalMintingPriceWire).send({
                                     from: acc
                                 })
-                                let a = web3.utils.fromWei(BusdPrice);
-                                a = parseFloat(a)
-                                let b = a * value;
-                                let c = web3.utils.toWei(b.toString());
+                               
 
-                                let hash = await nftContractOf.methods.mint_with_MMX(value, c).send({
+                                let hash = await nftContractOf.methods.mint_with_MMX(value, totalMintingPriceWire).send({
                                     from: acc,
                                 })
                                 toast.success("Transaction Confirmed")
