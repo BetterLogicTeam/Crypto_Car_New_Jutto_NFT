@@ -53,8 +53,8 @@ function Mint() {
                         onClick={()=>getAccount()}
                         className='btn btn-sm Connectbtn'>CONNECT</button>
                     </div>
-                    <div className="afterconnecttext">click mint to mint your NFT.</div>
-                   <p className="Salepricetext"> Pre - Sale Price : 0.15 BNB (+ Gas fee)</p>
+                    <div className="afterconnecttext">Click Mint to Mint Your NFT.</div>
+                   {/* <p className="Salepricetext"> Pre - Sale Price : 0.15 CST (+ Gas fee)</p> */}
 
 
                 </div>
