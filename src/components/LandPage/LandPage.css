@@ -6,18 +6,21 @@ video{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .landPagevideo{
     background-color: #210234;
     margin-top: 50px;
 }
 .landPageText{
-    margin-top: -510px;
+    /* margin-top: -510px; */
     margin-left: 60px;
     width: 550px;
     position: absolute;
     color: white;
     font-family: quicksand, sans-serif;
+    position: absolute;
+    top: 30%;
 }
 
 .landPageText p{
@@ -30,10 +33,13 @@ video{
     .landPageText{
         width: auto;
         margin-left: auto;
-        margin-top: -550px;
+        /* margin-top: -550px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: absolute;
+        top: 50%;
+        
         
     }
     .vdo{
@@ -60,13 +66,15 @@ video{
     .landPageText{
         width: auto;
         margin-left: auto;
-        margin-top: -220px;
+        /* margin-top: -220px; */
         font-family: quicksand, sans-serif !important;
         /* z-index: 100; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center !important;
+        position: absolute;
+        top: 70%;
     }
     .landPageText p{
         font-weight: bold;
@@ -91,13 +99,15 @@ video{
     .landPageText{
         width: auto;
         margin-left: auto;
-        margin-top: -220px;
+        /* margin-top: -220px; */
         font-family: quicksand, sans-serif !important;
         /* z-index: 100; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center !important;
+        position: absolute;
+        top: 60%;
     }
     .landPageText p{
         font-weight: bold;
@@ -124,7 +134,7 @@ video{
         margin-top: 50px;
     } */
     .landPageText{
-        margin-top: -517px;
+        /* margin-top: -517px; */
         margin-left: 60px;
         width: 550px;
         position: absolute;
@@ -154,12 +164,13 @@ video{
         margin-top: 50px;
     } */
     .landPageText{
-        margin-top: -340px;
+        /* margin-top: -340px; */
         margin-left: 60px;
         width: 550px;
         position: absolute;
         color: white;
         font-family: quicksand, sans-serif;
+        
     }
     
     .landPageText p{
@@ -180,11 +191,11 @@ video{
 @media (min-width:1441px) and (max-width:2560px){
 
     .landPageText{
-        margin-top: -460px;
-        /* margin-left: 60px;
+        /* margin-top: -30rem; */
+        margin-left: 60px;
         width: 550px;
         position: absolute;
         color: white;
-        font-family: quicksand, sans-serif; */
+        font-family: quicksand, sans-serif;
     }
 }

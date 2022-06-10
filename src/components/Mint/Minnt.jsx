@@ -40,6 +40,8 @@ function Mint() {
                 
                 
                 <div className="mainMintdiv">
+                    <h1 className='main_heading_here'>Mint NFT</h1>
+
                 <div className="innerMintdiv"><br /><br />
                     <h3 className="Firstdivheading">Pre - Sale is live</h3><br />
                     <h1 className='ConnectDiv'>Please Connect</h1>

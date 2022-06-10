@@ -279,6 +279,8 @@ function PublicMint() {
             </Modal>
 
             <div className="mainMintdiv">
+            <h1 className='main_heading_here'>Mint NFT</h1>
+
                 <div className="innerMintdiv"><br /><br />
                     <h3 className="Firstdivheading">Public Sale is live</h3><br />
                     {/* <h1 className='ConnectDiv'>{supply}/10,000</h1> */}
