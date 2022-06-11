@@ -90,12 +90,12 @@ function Collections() {
             for (let i = 1; i <= walletLength; i++) {
 
                 try {
-                    let res = await axios.get(`https://gateway.pinata.cloud/ipfs/QmWC48u2Rj84M9ufzFFxSD41AQmq2QFMUhFhiu7aT2DFq8/${i}.png`)
+                    let res = await axios.get(`https://gateway.pinata.cloud/ipfs/QmWpffiK4RYqSVNaFqMmhkCWUCgqwZDbDTr5G6oiPhnMPN/${i}.png`)
                     // let res = await axios.get(`/config/${walletOfOwner[i]}.json`)
                     let imageUrl = res.config.url;
                     console.log("check", res);
                     let dna = res.data.dna
-                    simplleArray = [...simplleArray, { imageUrl: imageUrl, num: dna }]
+                    simplleArray = [...simplleArray, { imageUrl: imageUrl, num: i }]
                     setImageArray(simplleArray);
                 } catch (e) {
                     console.log("Error while Fetching Api", e)
@@ -135,6 +135,7 @@ function Collections() {
                         </h1>
                     </div>
                     <div className='row justify-content-center'>
+                        
                         {
                             imageArray.map((items, index) => {
                                 return (

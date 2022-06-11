@@ -45,7 +45,7 @@ function Mint() {
                 <div className="innerMintdiv"><br /><br />
                     <h3 className="Firstdivheading">Pre - Sale is live</h3><br />
                     <h1 className='ConnectDiv'>Please Connect</h1>
-                    <p className='ConnectdivPP'>Connect to the Binance Testnet Network (Accepted Wallet:Metamask).</p>
+                    <p className='ConnectdivPP'>Connect to the Binance Mainnet Network (Accepted Wallet:Metamask).</p>
                     <p className='ConnectdivPP'>{txt}</p>
                     <div className="btnconnecthere">
                     

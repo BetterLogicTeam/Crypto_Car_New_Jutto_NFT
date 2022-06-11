@@ -41,7 +41,7 @@
     /* transform: (90deg) */
     transform: scaleX(-1);
 }
-@media (min-width:280px) and (max-width:480px){
+@media screen and (max-width:480px){
     .overViweContainer{
 
         height: 100vh;
@@ -69,7 +69,7 @@
         font-weight: normal;
     }
     .overviewImage{
-        margin-top: 20px;
+        margin-top: 7rem;
         height: 50vh;
         width: 80%;
     }
@@ -111,12 +111,13 @@
         
     }
     .overviewImage{
-        margin-top: 20px;
         height: 50vh;
         width: 80%;
     }
     .overviewImage img{
         /* transform: (90deg) */
+        margin-top: 7rem;
+
         width: 100%;
         transform: scaleX(-1);
     }
@@ -202,6 +203,7 @@
     }
     .overviewImage img{
         /* transform: (90deg) */
+        margin-top: 10rem;
         width: 100%;
         transform: scaleX(-1);
     }
