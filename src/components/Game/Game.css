@@ -2,7 +2,7 @@
 
 .gameContainer{
 
-    height: 150vh;
+    height: auto !important;
     background-color: #210234;
 }
 

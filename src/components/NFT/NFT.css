@@ -79,6 +79,8 @@ font-family: sans-serif;
 }
 .NFTcontainer{
     height: auto;
+    padding: 0px 5px 20px 2px;
+    margin-top: -10rem;
    
 }
 
@@ -109,7 +111,7 @@ line-height: 30px;
       justify-content: space-between !important;
       /* align-items: center; */
         /* padding-top: -50px; */
-        margin-top: -10rem;
+        margin-top: 0rem;
         padding: 0 25px 0 25px;
     
     }

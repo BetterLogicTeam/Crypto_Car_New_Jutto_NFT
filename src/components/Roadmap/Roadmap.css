@@ -187,6 +187,30 @@ font-family: quicksand, sans-serif;
        display: none;
         
         }
+        .roadMapItem1{
+            height: auto;
+            margin-top: -4rem;
+
+        
+        }
+        .roadMapItem2{
+            height: auto !important;
+            margin-top: -3rem;
+
+        
+        }
+        .roadMapItem3{
+            height: auto;
+            margin-top: -6rem !important;
+            
+        }
+
+        .roadMapItem4{
+            height: auto;
+            margin-top: -6rem !important;
+
+
+        }
 }
 
 

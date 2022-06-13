@@ -39,7 +39,7 @@ function Mint() {
                 minthere ?   <PublicMint/>     :   <>
                 
                 
-                <div className="mainMintdiv">
+                <div className="mainMintdiv" id='mint'>
                     <h1 className='main_heading_here'>Mint NFT</h1>
 
                 <div className="innerMintdiv"><br /><br />

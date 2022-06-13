@@ -29,7 +29,7 @@
 }
 
 .Accordiontextbody{
-    background-color: #210234;
+    background-color: #210234 !important;
     color: white;
     font-family: quicksand, sans-serif; 
     
@@ -68,7 +68,7 @@
     .Faqmaindiv{
         width: 100%;
         height: auto;
-        background-color: #210234;
+        background-color: #210234 !important;
         margin-top: 0rem;
     }
 
@@ -85,7 +85,7 @@
     .Faqmaindiv{
         width: 100%;
         height: auto;
-        background-color: #210234;
+        background-color: #210234 !important;
         margin-top: 0rem;
     }
 
@@ -103,7 +103,7 @@
 }
 
 .Accordiontextbody{
-    background-color: #210234;
+    background-color: #210234 !important;
     color: #fff;
     font-family: 'Aldrich', sans-seri !important;
     

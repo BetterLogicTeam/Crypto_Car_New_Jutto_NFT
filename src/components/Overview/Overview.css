@@ -34,7 +34,8 @@
     font-weight: normal;
 }
 .overviewImage{
-    height: 50vh;
+    height: auto;
+    margin-top: 5rem;
     width: 40%;
 }
 .overviewImage img{
@@ -44,7 +45,7 @@
 @media screen and (max-width:480px){
     .overViweContainer{
 
-        height: 100vh;
+        height: auto;
 
     }
     .overViewInner{
@@ -59,7 +60,7 @@
     }
     
     .overviewText{
-        height: 50vh;
+        height: auto;
         width: 80%;
     }
     .overviewText p{
@@ -69,8 +70,8 @@
         font-weight: normal;
     }
     .overviewImage{
-        margin-top: 7rem;
-        height: 50vh;
+        margin-top: 0rem;
+        height: auto;
         width: 80%;
     }
     .overviewImage img{
@@ -84,7 +85,7 @@
 @media (min-width:481px) and (max-width:768px){
     .overViweContainer{
 
-        height: 100vh;
+        height: auto;
 
     }
     .overViewInner{
@@ -127,7 +128,7 @@
 @media (min-width:768px) and (max-width:1024px){
     .overViweContainer{
 
-        height: 100vh;
+        height: auto;
 
     }
     .overViewInner{
@@ -237,7 +238,7 @@
         padding-top: 3rem;
     }
     .overviewImage{
-        margin-top: 20px;
+        margin-top: 10rem !important;
         height: 40vh;
         width: 80%;
     }

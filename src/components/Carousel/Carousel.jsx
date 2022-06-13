@@ -15,7 +15,29 @@ function Slides() {
         focusOnSelect: true,
         autoplay: true,
         autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+        ],
       });
+      
 
     });
   }, [$])
@@ -25,37 +47,37 @@ function Slides() {
       <div className="slider">
         <div>
           <img
-            src="roadster-2.png" className='sliderimgall'
+            src="466.png" className='sliderimgall'
           />
         </div>
         <div>
           <img
-            src="Mercedes-Biome-concept.png" className='sliderimgall'
+            src="266.png" className='sliderimgall'
           />
         </div>
         <div>
           <img
-             className='sliderimgall'     src="MERCEDES-BENZ-AMG-GT-2016.png"
+             className='sliderimgall'     src="42.png"
           />
         </div>
         <div>
           <img
-            className='sliderimgall'      src="MCLAREN-SENNA-2019.png"
+            className='sliderimgall'      src="37.png"
          />
         </div>
         <div>
           <img
-             className='sliderimgall'     src="bugatti-veyron-grand-sport.png"
+             className='sliderimgall'     src="3.png"
           />
         </div>
         <div>
           <img
-             className='sliderimgall'     src="Audi-R8-LMS-GT2-2021-1.png"
+             className='sliderimgall'     src="183.png"
           />
         </div>
         <div>
           <img
-             className='sliderimgall'     src="aston-Martin-Vulcan-2015.png"
+             className='sliderimgall'     src="690.png"
           />
         </div>
       </div>
