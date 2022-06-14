@@ -104,7 +104,13 @@ function PublicMint() {
                             // console.log("mintingWirePrice", mintingWirePrice);
                             mintingWirePrice = parseFloat(mintingWirePrice);
                             let totalMintingPriceWire = value * mintingWirePrice
+                            let a=1
+                            totalMintingPriceWire=totalMintingPriceWire+(+a)
                             totalMintingPriceWire = web3.utils.toWei(totalMintingPriceWire.toString())
+                           
+                            console.log("userBusdBalance",userBusdBalance);
+                            console.log("totalMintingPriceWire",totalMintingPriceWire);
+
                             // console.log("totalMintingPriceWire",totalMintingPriceWire);
                             // if (llisted_check == 'true') {
 
