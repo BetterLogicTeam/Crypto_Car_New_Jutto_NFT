@@ -2,7 +2,7 @@
 .Faqmaindiv{
     width: 100%;
     height: auto;
-    background-color: #210234;
+    background-color: #210234 !important;
     margin-top: -15rem;
 }
 
@@ -11,6 +11,9 @@
     font-size: 59px;
     text-align: center;
     font-family: sans-serif; 
+}
+.css-zaflez{
+    background-color: #210234 !important;
 }
 .heading_main{
     color: rgb(192,54,113);
@@ -70,6 +73,12 @@
         height: auto;
         background-color: #210234 !important;
         margin-top: 0rem;
+    }
+    .AccodionHeadertext{
+        background-color: #210234 !important;
+        /* color: black; */
+        font-family: 'Aldrich', sans-seri !important;
+        font-size: 18px !important;
     }
 
 }
